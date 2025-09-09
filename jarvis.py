@@ -2,8 +2,8 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musicliberary
-from openai import Openai
-recogniser=sr.recognizer
+from openai import OpenAI
+recogniser=sr.Recognizer
 engine=pyttsx3.init()
 def speak(text):
     engine.say(text)
