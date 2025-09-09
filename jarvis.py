@@ -10,7 +10,7 @@ def speak(text):
     engine.runAndWait()
 def aiprocess(command):
     client = OpenAI(
-    api_key='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',)
+    api_key='s',)
     completion = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
